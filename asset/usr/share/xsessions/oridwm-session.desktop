@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Oridwm
+Comment=Dynamic window manager
+Exec=/usr/share/oridwm/xsessions/oridwm-session
+Icon=dwm
+Type=XSession
