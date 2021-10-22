@@ -29,17 +29,6 @@ source "$THE_BASE_DIR_PATH/init.sh"
 ### Head: Panel / Bar / Info
 ##
 
-app_bar_info_start_gruvchad () {
-	app_bar_info_start_script "gruvchad.sh"
-}
-
-app_bar_info_start_nord () {
-	app_bar_info_start_script "nord.sh"
-}
-
-app_bar_info_start_onedark () {
-	app_bar_info_start_script "onedark.sh"
-}
 
 app_bar_info_start_clock () {
 	app_bar_info_start_script "clock.sh"
@@ -65,10 +54,8 @@ app_bar_info_start () {
 	## TODO: kill old process on restart
 	##
 
-	#app_bar_info_start_gruvchad
-	#app_bar_info_start_nord
-	#app_bar_info_start_onedark
-	#app_bar_info_start_clock
+
+	app_bar_info_start_clock
 
 }
 
